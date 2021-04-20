@@ -29,5 +29,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJsdoc(options)));
 app.use('/immobile', ImmobileRouter);
 
 app.listen(port, () => {
+  console.log('api1: ', process.env.API1_URL)
   return console.log(`server is listening on ${port}`);
 });
