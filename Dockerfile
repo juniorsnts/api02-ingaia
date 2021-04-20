@@ -13,5 +13,5 @@ COPY package.json ./
 RUN npm install --only=production
 COPY --from=build /usr/build .
 RUN npm install pm2 -g
-EXPOSE 80
+EXPOSE 3000
 CMD ["pm2-runtime","index.js"]
