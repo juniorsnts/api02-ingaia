@@ -9,7 +9,15 @@ Welcome to the API 2.
 - Typescript
 ## Instruções para executar o projeto
 
-## Documentação swagger no heroku
+## Testes
+```
+npm run test
+```
+ou
+```
+yarn test
+```
+### Documentação swagger no heroku
 https://api02-ing-aia.herokuapp.com/api-docs
 
 ### Crie .env baseado no .env-example
